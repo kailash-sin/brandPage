@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --red: #d01c28;
+  --gray: #2e2e2e;
+}
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container{
+   max-width: 1280px;
+  margin: 0 auto;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  height: 72px;
+}
+ul{
+  align-items: center;
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+button{
+  all: unset;
+  padding:  6px 16px;
+  background: var(--red);
+  height: 32px;
+  color: aliceblue;
+  font-weight: 500;
+  margin-top: 2px ;
+  margin-right: 2px;
+}
+.Hero{
+  display: flex;
+  align-items: center;
+  height: calc(100vh-70px);
+}
+.hero-cont{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 50px;
+}
+.Hero h1{
+  font-weight: 800;
+  font-size: 108px;
+  line-height: 102px;
+}
+.Hero p{
+  font-weight: 600;
+  color: var(--gray);
+}
+.hero-button{
+  display: flex;
+  gap: 40px;
+}
+.shop{
+  font: 14px;
+  margin-bottom: 8px;
+}
+.logo{
+ margin-top: 10px;
+}
